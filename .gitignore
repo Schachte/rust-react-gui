@@ -1,0 +1,58 @@
+/target
+# Rust specific ignores
+/target
+**/*.rs.bk
+*.pdb
+Cargo.lock
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Rust IDE specific
+/.idea
+/.vscode
+*.iml
+
+# Build output
+/build
+/out
+
+# Debug files
+*.pdb
+
+# Rust profiling and benchmarking
+/flamegraph.svg
+/perf.data
+/perf.data.old
+
+# Vite specific
+/.vite
+/stats.html
